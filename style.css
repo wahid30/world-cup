@@ -1,4 +1,49 @@
-/* primary selection */
+/* google-fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+/* fonts apply on */
+h1 {
+  font-family: "Cormorant SC", serif;
+  font-family: "Poppins", sans-serif;
+}
+span {
+  font-family: "Edu SA Beginner", cursive;
+}
+
+h2,
+p,
+button,
+a {
+  font-family: "Abel", sans-serif;
+}
+
+/*----------------------- 
+animation 
+--------------------------*/
+@keyframes slides {
+  0% {
+    color: #fffaf0;
+  }
+  25% {
+    color: #faebd7;
+  }
+  50% {
+    color: #7fffd4;
+  }
+  75% {
+    color: #24d89c;
+  }
+  100% {
+    color: #04a06c;
+  }
+}
+h1 {
+  animation: slides 1.5s ease-in-out 0.5s infinite alternate;
+}
+/*-----------------------
+ primary selection
+ --------------------- */
 * {
   margin: 0;
   padding: 0;
@@ -60,6 +105,17 @@ greatest-show (section-001 // header section)
 .greatest-article > button > span {
   margin-left: 10px;
 }
+.animated__button:hover {
+  background-color: #26e6a6;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  transition: 1.5s;
+}
+/* .animated__button:hover span {
+  margin-left: 40px;
+} */
+
 .greatest-image {
   width: 50%;
 }
@@ -77,7 +133,7 @@ greatest-show (section-001 // header section)
 }
 
 .jump-sites {
-  width: 25%;
+  width: 300px;
   height: 312px;
   display: flex;
   flex-direction: column;

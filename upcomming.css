@@ -8,14 +8,17 @@
   align-items: center;
 }
 .flag img,
-h3 {
+h2 {
   margin-left: 20px;
+}
+.flag-name-time::first-line {
+  font-size: 30px;
+}
+.flag-name-time:nth-child(even) {
+  font-size: 10px;
 }
 .flag-name-time h2 {
   margin-top: 20px;
-}
-.flag-name-time h3 {
-  margin-top: 15px;
 }
 
 #Upcoming__Match {
