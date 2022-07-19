@@ -90,7 +90,7 @@ greatest-show (section-001 // header section)
 
 .jump-sites a {
   height: 64px;
-  background: #ffffff;
+  background-color: #ffffff;
   border-radius: 10px;
   text-decoration: none;
   font-weight: 500;
@@ -98,6 +98,10 @@ greatest-show (section-001 // header section)
   line-height: 60px;
   color: #161616;
   text-align: center;
+}
+#blog {
+  background-color: #dd0000;
+  color: #ffffff;
 }
 .news-sites {
   display: grid;

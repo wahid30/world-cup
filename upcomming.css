@@ -1,0 +1,24 @@
+.country {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 50px;
+}
+.flag {
+  display: flex;
+  align-items: center;
+}
+.flag img,
+h3 {
+  margin-left: 20px;
+}
+.flag-name-time h2 {
+  margin-top: 20px;
+}
+.flag-name-time h3 {
+  margin-top: 15px;
+}
+
+#Upcoming__Match {
+  background-color: #dd0000;
+  color: #ffffff;
+}
