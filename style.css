@@ -39,7 +39,7 @@ animation
   }
 }
 h1 {
-  animation: slides 1.5s ease-in-out 0.5s infinite alternate;
+  animation: slides 2s ease-in-out 0.5s infinite alternate;
 }
 /*-----------------------
  primary selection
@@ -241,4 +241,9 @@ greatest-show (section-001 // header section)
 }
 .social-media i {
   margin: 0 20px;
+  font-size: 30px;
+}
+.social-media a {
+  color: white;
+  text-decoration: none;
 }
