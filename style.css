@@ -312,6 +312,7 @@ responsiveness
     grid-template-columns: repeat(1, 1fr);
     row-gap: 50px;
   }
+
   /* footer-area */
   .footer-article {
     /* background-color: #fff; */
