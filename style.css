@@ -64,7 +64,7 @@ greatest-show (section-001 // header section)
   display: flex;
   width: 90%;
   height: 646px;
-  background-color: #161616;
+  background-color: #04111f;
   border-radius: 30px;
 }
 
@@ -264,6 +264,9 @@ responsiveness
     width: 90%;
     height: 100%;
   }
+  .animated__button:hover {
+    display: none;
+  }
   .greatest-article {
     display: flex;
     flex-direction: column;
@@ -344,6 +347,9 @@ responsiveness
     align-items: center;
     /* width: 90%; */
     /* height: 100%; */
+  }
+  .animated__button:hover {
+    display: none;
   }
   .greatest-image img {
     width: 100%;
