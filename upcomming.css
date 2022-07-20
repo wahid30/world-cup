@@ -37,3 +37,8 @@ h2 {
     padding: 45px 0;
   }
 }
+@media only screen and (min-width: 993px) and (max-width: 1390px) {
+  .country {
+    padding: 45px 0;
+  }
+}
