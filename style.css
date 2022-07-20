@@ -1,4 +1,4 @@
-/* google-fonts */
+/* google-fonts-links */
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
@@ -18,9 +18,11 @@ a {
   font-family: "Abel", sans-serif;
 }
 
-/*----------------------- 
-animation 
---------------------------*/
+/*.......................................
+....................................... 
+///////////////Animation////////////// 
+....................................
+..................................*/
 @keyframes slides {
   0% {
     color: #fffaf0;
@@ -41,9 +43,13 @@ animation
 h1 {
   animation: slides 2s ease-in-out 0.5s infinite alternate;
 }
-/*-----------------------
- primary selection
- --------------------- */
+
+/*............................................
+............................................
+/////////////primary selection//////////// 
+........................................
+.....................................*/
+
 * {
   margin: 0;
   padding: 0;
@@ -57,9 +63,9 @@ h1 {
 button {
   cursor: pointer;
 }
-/*---------------------------
-greatest-show (section-001 // header section)
----------------------------*/
+/*_______________________________________________________________________________
+------------------greatest-show (section-001 // header section)-----------------
+______________________________________________________________________________*/
 .greatest-show {
   display: flex;
   width: 90%;
@@ -112,9 +118,6 @@ greatest-show (section-001 // header section)
   width: 50%;
   transition: 1.5s;
 }
-/* .animated__button:hover span {
-  margin-left: 40px;
-} */
 
 .greatest-image {
   width: 50%;
@@ -123,13 +126,12 @@ greatest-show (section-001 // header section)
   height: 646px;
 }
 
-/*-------------------------------
- middle-container // section= 002
---------------------------- */
+/*_______________________________________________________________________________
+---------------------------middle-container // section= 002---------------------
+______________________________________________________________________________*/
 .newsfeed-sections {
   display: flex;
   width: 90%;
-  /* background-color: red; */
 }
 
 .jump-sites {
@@ -195,20 +197,35 @@ greatest-show (section-001 // header section)
   margin: 20px;
 }
 
-/* footer-area */
+/*_______________________________________________________________________________
+-------------------------this only for tablet view sections---------------------
+______________________________________________________________________________*/
+#tablet-view {
+  display: none;
+  padding: 25px 0;
+  width: 25%;
+  background: #dd0000;
+  border: 1px solid #dd0000;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 23px;
+  color: #ffffff;
+  margin: 60px 0 0 310px;
+}
+
+/*_______________________________________________________________________________
+----------------------------------footer-area-----------------------------------
+______________________________________________________________________________*/
 .footer-article {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #161616;
   width: 100%;
-  margin-top: 150px;
-  /* height: 300px; */
+  margin-top: 100px;
 }
-.footer-title {
-  /* height: 100%; */
-  /* background-color: aqua; */
-}
+
 .footer-title h2 {
   font-weight: 600;
   font-size: 40px;
@@ -220,10 +237,7 @@ greatest-show (section-001 // header section)
 
 .footer-info {
   border-top: 1px solid #ffffff1a;
-  /* border-top: 5px solid red; */
-  /* height: 100%; */
   padding: 65px 250px;
-  /* background-color: yellow; */
 }
 .footer-info a {
   text-decoration: none;
@@ -234,10 +248,8 @@ greatest-show (section-001 // header section)
   margin: 0 50px;
 }
 .social-media {
-  /* height: 100%; */
   padding: 0 65px 65px 65px;
   color: #ffffff;
-  /* background-color: slateblue; */
 }
 .social-media i {
   margin: 0 20px;
@@ -248,31 +260,25 @@ greatest-show (section-001 // header section)
   text-decoration: none;
 }
 
-/*--------------------------- 
-responsiveness
--------------------------- */
-/* for mobile devices */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+-------------------Responsiveness-----------------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* For mobile devices */
 @media only screen and (max-width: 576px) {
   /* header-area */
   .greatest-show {
-    /* display: none; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: 50px; */
     width: 90%;
     height: 100%;
-  }
-  .animated__button:hover {
-    display: none;
   }
   .greatest-article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 100%; */
-    /* height: 100%; */
     text-align: center;
     padding: 0;
   }
@@ -287,7 +293,6 @@ responsiveness
   }
   /* newsfeed-sections-area */
   .newsfeed-sections {
-    /* display: none; */
     display: flex;
     flex-direction: column;
   }
@@ -315,22 +320,15 @@ responsiveness
 
   /* footer-area */
   .footer-article {
-    /* background-color: #fff; */
-    /* display: none; */
-    /* width: 100%; */
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
   }
   .footer-title h2 {
     padding: 0;
     margin: 50px 0;
-    /* width: 100%; */
   }
   .footer-info {
-    /* width: 100%; */
     padding: 30px;
-    /* height: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -338,27 +336,19 @@ responsiveness
   }
 }
 
-/* for tablet devices */
+/* For tablet devices */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
   /* header-area */
   .greatest-show {
-    /* display: none; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 90%; */
-    /* height: 100%; */
-  }
-  .animated__button:hover {
-    display: none;
   }
   .greatest-image img {
     width: 100%;
-    /* height: 100%; */
   }
   /* newsfeed-sections-area */
   .newsfeed-sections {
-    /* display: none; */
     display: flex;
     flex-direction: column;
   }
@@ -384,12 +374,14 @@ responsiveness
     row-gap: 50px;
     column-gap: 50px;
   }
+
+  /* for table view section */
+  #tablet-view {
+    display: inline;
+  }
   /* footer-area */
   .footer-article {
-    /* background-color: #fff; */
-    /* display: none; */
     width: 100%;
-    /* height: 100vh; */
   }
   .footer-title h2 {
     padding: 0;
@@ -399,6 +391,5 @@ responsiveness
   .footer-info {
     width: 100%;
     padding: 0;
-    /* height: 100%; */
   }
 }
